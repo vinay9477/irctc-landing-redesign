@@ -31,9 +31,10 @@ This is a quick redesign of the IRCTC eQuery landing page. The original page wor
 - Random CAPTCHA with a reload button
 - Simple top navigation (Home, Contact, Help) with interactive hover
 
-> Screenshots of output :
-> Before:https://github.com/user-attachments/assets/bbccf436-cec1-4e71-839b-55a7974c9806
-> After:
+ ##Screenshots of output :
+> *Before*:https://github.com/user-attachments/assets/bbccf436-cec1-4e71-839b-55a7974c9806
+> 
+> *After*:https://github.com/user-attachments/assets/8c3e34c7-ee19-4301-b5b0-65aac8e9c67e
 
 ---
 
