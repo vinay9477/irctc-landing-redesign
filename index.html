@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IRCTC Futuristic Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <h1>IRCTC Login</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Contact</a>
+      <a href="#">Help</a>
+    </nav>
+  </header>
+
+  <!-- Overlay -->
+  <div class="overlay"></div>
+
+  <!-- Container -->
+  <div class="container">
+    <div class="login-box">
+      <h2>Login</h2>
+
+      <label for="userid">User ID / Phone</label>
+      <input type="text" id="userid" placeholder="Enter User ID or Phone Number">
+
+      <label for="password">Password</label>
+      <input type="password" id="password" placeholder="Enter Password">
+
+      <!-- Captcha -->
+      <label for="captcha-input">Captcha</label>
+      <div class="captcha-box">
+        <div id="captcha" class="captcha-text">AB123</div>
+        <button type="button" id="reload-captcha">⟳</button>
+      </div>
+      <input type="text" id="captcha-input" placeholder="Enter Captcha">
+
+      <button class="login-btn">Login</button>
+
+      <p class="help-text">
+        <a href="#">Forgot Password?</a> | 
+        <a href="#">New User? Register</a>
+      </p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
