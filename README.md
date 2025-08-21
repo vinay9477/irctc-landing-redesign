@@ -32,7 +32,8 @@ This is a quick redesign of the IRCTC eQuery landing page. The original page wor
 - Simple top navigation (Home, Contact, Help) with interactive hover
 
 > Screenshots:  
-> `before.png` | `after.png`  
+> `<img width="1919" height="991" alt="Image" src="https://github.com/user-attachments/assets/50c98d10-7872-4eb0-9c4b-acaabb9a90ef" />`#BEFORE
+>  | `after.png`  
 > (Add your screenshots in the repo and update these names)
 
 ---
