@@ -1,0 +1,172 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Background */
+body {
+  height: 100vh;
+  background: url('train-bg.jpg') no-repeat center center/cover;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Navbar */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(0, 28, 70, 0.9);
+  color: #fff;
+  padding: 15px 50px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+header nav a {
+  color: #fff;
+  margin-left: 20px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+header nav a:hover {
+  color: #00e0ff;
+}
+
+/* Overlay */
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* Container */
+.container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+/* Futuristic Login Box */
+.login-box {
+  position: relative;
+  z-index: 2;
+  background: rgba(0, 0, 50, 0.85);
+  padding: 40px 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 40px rgba(0, 238, 255, 0.6);
+  text-align: center;
+  width: 350px;
+  color: #fff;
+  animation: float 4s infinite ease-in-out;
+}
+
+.login-box h2 {
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+/* Labels */
+label {
+  display: block;
+  margin: 12px 0 5px;
+  text-align: left;
+}
+
+/* Inputs */
+input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  margin-bottom: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+/* Futuristic Hover Animation */
+input:hover, input:focus {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #00e0ff;
+  border: 1px solid #00e0ff;
+}
+
+/* Captcha */
+.captcha-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.captcha-text {
+  padding: 12px 15px;
+  background: #00e0ff;
+  color: #000;
+  font-weight: bold;
+  border-radius: 8px;
+  letter-spacing: 3px;
+  font-size: 14px;
+  user-select: none;
+}
+
+#reload-captcha {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  background: #0077ff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#reload-captcha:hover {
+  background: #00e0ff;
+  color: #000;
+}
+
+/* Button */
+.login-btn {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 12px;
+  background: linear-gradient(90deg, #00e0ff, #0077ff);
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+
+.login-btn:hover {
+  transform: scale(1.08);
+  box-shadow: 0 0 25px #00e0ff;
+}
+
+/* Help Text */
+.help-text {
+  margin-top: 15px;
+  font-size: 12px;
+}
+
+.help-text a {
+  color: #00e0ff;
+  text-decoration: none;
+}
+
+/* Floating animation */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
